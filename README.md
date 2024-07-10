@@ -128,7 +128,7 @@ Before running the tests, ensure you have the following installed and set up:
 
 
 
-** Acknowledgements**
+**Acknowledgements**
 
 - [Selenium](https://www.selenium.dev/)
 - [Python](https://www.python.org/)
