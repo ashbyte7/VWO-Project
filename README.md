@@ -16,7 +16,7 @@ This project involves comprehensive testing of a VWO login page. The tests are d
 Before running the tests, ensure you have the following installed and set up:
 
 - Windows 11
-- Python 3.x
+- Python 
 - Selenium WebDriver
 - Jira account (for bug reporting)
 
