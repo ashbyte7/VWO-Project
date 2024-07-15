@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#VWO-12] Empty Password Field Not Displaying Correct Error Message</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://ashbyte7.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://ashbyte7.atlassian.net/browse/VWO-9">Issues related to login functionality on the VWO website</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://ashbyte7.atlassian.net/browse/VWO-9">VWO-9</a>)</span>
+                <h3 class="formtitle"><img src="https://ashbyte7.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [VWO-12]&nbsp;<a href="https://ashbyte7.atlassian.net/browse/VWO-12">Empty Password Field Not Displaying Correct Error Message</a>
+            <span class="subText">
+               Created: 07/Jul/24                   &nbsp;Updated: 07/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ashbyte7.atlassian.net/secure/BrowseProject.jspa?id=10002">VWO</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://ashbyte7.atlassian.net/browse/VWO-9">Issues related to login functionality on the VWO website</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0b688ba5-0a65-4428-9630-ae35d496539d"
+                id="word_reporter_712020:0b688ba5-0a65-4428-9630-ae35d496539d"
+                href="https://ashbyte7.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0b688ba5-0a65-4428-9630-ae35d496539d">
+                    ashutosh sinha
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0b688ba5-0a65-4428-9630-ae35d496539d"
+                id="word_assignee_712020:0b688ba5-0a65-4428-9630-ae35d496539d"
+                href="https://ashbyte7.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0b688ba5-0a65-4428-9630-ae35d496539d">
+                    ashutosh sinha
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            login                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10015-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10015-value" class="value" bgcolor="#ffffff" width="80%">      0|i00033:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When a user tries to log in without entering a password, the application displays an incorrect error message.</p>
+
+<p><b>Steps to Reproduce:</b></p>
+
+<ol>
+	<li>Navigate to the login page at <a href="https://app.vwo.com/#/login" title="smart-link" class="external-link" rel="nofollow noreferrer">https://app.vwo.com/#/login</a> .</li>
+	<li>Enter a registered email.</li>
+	<li>Leave the password field empty.</li>
+	<li>Click on the "Login" button.</li>
+</ol>
+
+
+<p><b>Expected Result:</b><br/>
+An error message should be displayed indicating "Password is required."</p>
+
+<p><b>Actual Result:</b><br/>
+The error message displayed is "Your email, password, IP address or location did not match."</p>
+
+<p><b>Additional Information:</b></p>
+
+<ul>
+	<li><b>Test Case ID:</b> TC-005</li>
+	<li><b>Environment:</b> Chrome Version 126.0.6478.127</li>
+	<li><b>QA Name:</b> Ashutosh</li>
+	<li><b>Priority:</b> Medium</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Mon Jul 15 04:38:06 UTC 2024 by ashutosh sinha using Jira 1001.0.0-SNAPSHOT#100258-rev:a8697fa7c78f0e06e31be511caa368ff55a76251.
+
+</body>
+</html>
